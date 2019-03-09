@@ -33,6 +33,26 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .firstscreen.ph01 {
+        background-image: url('../img/photos/01d.webp');
+    }
+    .firstscreen__block {
+        margin-left: 85px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .logo.logo_main .logo__img {
+        float: left;
+        margin-left: 0;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .slogan {
+        font-family: "Arkipelago", sans-serif;
+        font-weight: 400;
+        font-size: 27px;
+        margin: 16px 0 30px;
+    }
 
 }
 
