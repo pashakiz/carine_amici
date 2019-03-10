@@ -28,6 +28,31 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .logo__text {
+        font-size: 26px;
+    }
+    .logo__img {
+        width: 30px;
+        height: 26px;
+    }
+    .logo.logo_footer .logo__img {
+        float: left;
+        margin-right: 15px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .footer {
+        padding: 37px 15px;
+        text-align: left;
+    }
+    .footer a.footer__lnk {
+        font-size: 16px;
+        padding-top: 6px;
+        margin-top: 0;
+    }
+    .footer a.footer__lnk + a.footer__lnk {
+        margin-left: 50px;
+    }
 
 }
 
@@ -52,6 +77,55 @@
         font-weight: 400;
         font-size: 27px;
         margin: 16px 0 30px;
+    }
+    .content.main {
+        padding: 150px 0;
+    }
+    .content.main .content__wrap {
+        padding: 0 85px;
+    }
+    .content.main p {
+        font-size: 15px;
+        margin-bottom: 2rem;
+        line-height: 33px;
+    }
+    h1 {
+        color: #5A5A5A;
+        font-size: 35px;
+        letter-spacing: 3px;
+        margin: 0 0 45px;
+    }
+    .h1__circle {
+        display: inline-block;
+        background-color: #AFAFAF;
+        border-radius: 15px;
+    }
+    .h1__circle1 {
+        width: 5px;
+        height: 5px;
+    }
+    .h1__circle2 {
+        width: 6px;
+        height: 6px;
+    }
+    .h1__circle3 {
+        width: 7px;
+        height: 7px;
+    }
+    .collage {
+        margin-bottom: 150px;
+    }
+    .collage__img_xs {
+        display: none;
+    }
+    .collage__img_lg {
+        display: block;
+        width: 116%;
+        position: relative;
+        left: -8%;
+    }
+    .footer {
+        padding: 37px 85px;
     }
 
 }

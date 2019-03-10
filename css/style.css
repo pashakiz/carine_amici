@@ -30,6 +30,132 @@ body {
     color: #7A7A7A;
     background-color: #fff;
 }
+.firstscreen {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-size: cover;
+}
+.firstscreen.ph01 {
+    background-image: url('../img/photos/01m.webp');
+}
+.firstscreen__block {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.logo {}
+.logo__img {
+    float: left;
+    width: 27px;
+    height: 23px;
+    background-image: url('../img/icons/logo-dark.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-right: 15px;
+}
+.logo__text {
+    font-family: "Arkipelago", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
+.logo.logo_main {}
+.logo.logo_main .logo__img {
+    float: none;
+    display: block;
+    width: 50px;
+    height: 47px;
+    background-image: url('../img/icons/logo.svg');
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+.logo.logo_main .logo__img:hover {
+    background-image: url('../img/icons/logo-dark.svg');
+}
+.logo.logo_main .logo__text {
+    font-size: 39px;
+}
+.logo.logo_footer {
+    /*display: inline-block;*/
+}
+.logo.logo_footer .logo__img {
+    float: none;
+    display: block;
+    width: 40px;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+.slogan {
+    font-family: "FuturaNew", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    margin: 16px 0 23px;
+}
+.header {
+    background-color: #20A892;
+}
+.content {
+    background-color: #FFF;
+}
+.content.main {
+    color: #595555;
+    padding: 70px 0 95px;
+}
+.content.main .content__wrap {
+    padding: 0 15px;
+}
+h1 {
+    font-family: "Arkipelago", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #71757A;
+    letter-spacing: 2px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.h1__circle {
+    display: none;
+}
+.content.main p {
+    font-size: 13px;
+    margin-bottom: 1rem;
+    line-height: 28px;
+}
+.collage {
+    margin-bottom: 115px;
+    text-align: center;
+    overflow: hidden;
+}
+.collage__img_xs {
+    display: block;
+    width: 144%;
+    position: relative;
+    left: -19%;
+}
+.collage__img_lg {
+    display: none;
+}
+.footer {
+    padding: 64px 15px 55px;
+    background-color: #20A892;
+    text-align: center;
+}
+.footer a.footer__lnk {
+    font-family: "FuturaNew", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 27px;
+}
+.footer a.footer__lnk:hover {
+    text-decoration: underline;
+}
+/*----------------------------------------------------------------------------------------------------*/
 .form-group_2 {
     margin-bottom: 2rem;
 }
@@ -219,67 +345,4 @@ textarea.form-control {
     color: #fff;
     background-color: #819490;
 }
-.firstscreen {
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: 50% 15%;
-    background-size: cover;
-}
-.firstscreen.ph01 {
-    background-image: url('../img/photos/01m.webp');
-}
-.firstscreen__block {
-    text-align: center;
-    margin-bottom: 50px;
-}
-.logo {}
-.logo__img {
-    float: left;
-    width: 30px;
-    height: 26px;
-    background-image: url('../img/icons/logo-dark.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    margin-right: 19px;
-}
-.logo__text {
-    font-family: "Arkipelago", sans-serif;
-    font-weight: 400;
-    font-size: 26px;
-    color: #fff;
-}
-.logo.logo_main {}
-.logo.logo_main .logo__img {
-    float: none;
-    display: block;
-    width: 50px;
-    height: 47px;
-    background-image: url('../img/icons/logo.svg');
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 8px;
-}
-.logo.logo_main .logo__img:hover {
-    background-image: url('../img/icons/logo-dark.svg');
-}
-.logo.logo_main .logo__text {
-    font-size: 39px;
-}
-.slogan {
-    font-family: "FuturaNew", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #fff;
-    margin: 16px 0 23px;
-}
-.header {
-    background-color: #20A892;
-}
-.content {
-    color: #595555;
-    background-color: #FFF;
-}
-.footer {
-    background-color: #20A892;
-}
+/*----------------------------------------------------------------------------------------------------*/
