@@ -53,6 +53,11 @@
     .footer a.footer__lnk + a.footer__lnk {
         margin-left: 50px;
     }
+    .btn-unsubscribe {
+        margin-top: 20px;
+        float: right;
+        width: auto;
+    }
 
 }
 

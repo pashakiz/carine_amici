@@ -423,4 +423,8 @@ textarea.form-control {
     padding-left: 5rem;
     padding-right: 5rem;
 }
+.btn-unsubscribe {
+    margin-top: 30px;
+    width: 100%;
+}
 /*----------------------------------------------------------------------------------------------------*/
