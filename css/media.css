@@ -42,7 +42,7 @@
         margin-bottom: 0;
     }
     .footer {
-        padding: 37px 15px;
+        padding: 37px 25px;
         text-align: left;
     }
     .footer a.footer__lnk {
@@ -58,13 +58,15 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    body {
+        font-size: 15px;
+    }
     .firstscreen.ph01 {
         background-image: url('../img/photos/01d.webp');
     }
     .firstscreen__block {
-        margin-left: 85px;
+        padding: 0 0 0 85px;
         text-align: left;
-        margin-bottom: 0;
     }
     .logo.logo_main .logo__img {
         float: left;
@@ -78,16 +80,26 @@
         font-size: 27px;
         margin: 16px 0 30px;
     }
+    .header {
+        padding-top: 37px;
+        padding-bottom: 36px;
+    }
+    .header__btn {
+        display: none;
+    }
+    .content {
+        padding-top: 46px;
+    }
     .content.main {
         padding: 150px 0;
     }
-    .content.main .content__wrap {
-        padding: 0 85px;
+    .wrap-horizontal {
+        padding-left: 85px;
+        padding-right: 85px;
     }
     .content.main p {
         font-size: 15px;
         margin-bottom: 2rem;
-        line-height: 33px;
     }
     h1 {
         color: #5A5A5A;
@@ -112,6 +124,15 @@
         width: 7px;
         height: 7px;
     }
+    h2 {
+        font-size: 14px;
+        margin: 0 0 42px;
+    }
+    p {
+        font-size: 15px;
+        margin-bottom: 2rem;
+        line-height: 33px;
+    }
     .collage {
         margin-bottom: 150px;
     }
@@ -126,6 +147,9 @@
     }
     .footer {
         padding: 37px 85px;
+    }
+    .btn {
+        padding: 1.063rem 1.5rem;
     }
 
 }
