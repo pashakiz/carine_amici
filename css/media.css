@@ -28,6 +28,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .btn {
+        width: auto;
+    }
+    .btn-login {
+        width: 100%;
+    }
     .logo__text {
         font-size: 26px;
     }
@@ -57,6 +63,17 @@
         margin-top: 20px;
         float: right;
         width: auto;
+    }
+    .login-form .form-control {
+        min-width: 370px;
+    }
+    .collage-login {
+        margin: 33px 0 0;
+        overflow: visible;
+    }
+    .collage-login__img {
+        width: 100%;
+        position: static;
     }
 
 }
@@ -133,6 +150,9 @@
         font-size: 14px;
         margin: 0 0 42px;
     }
+    .h2-login {
+        margin: 46px 0 87px;
+    }
     p {
         font-size: 15px;
         margin-bottom: 2rem;
@@ -159,6 +179,21 @@
     .btn-wide5 {
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+    .form-group_login1 {
+        margin-bottom: 1.8125rem;
+    }
+    .form-group_login2 {
+        margin-bottom: 2.1875rem;
+    }
+    .form-group_login3 {
+        margin-bottom: 1.5625rem;
+    }
+    .form-group_login4 {
+        margin-bottom: 2.4375rem;
+    }
+    a.smallink {
+        font-size: 12px;
     }
 
 }
