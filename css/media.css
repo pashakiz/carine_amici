@@ -151,6 +151,10 @@
     .btn {
         padding: 1.063rem 1.5rem;
     }
+    .btn-wide5 {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 
 }
 
