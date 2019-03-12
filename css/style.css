@@ -38,7 +38,7 @@ body {
     background-size: cover;
 }
 .firstscreen.ph01 {
-    background-image: url('../img/photos/01m.webp');
+    background-image: url('../img/firstscreen/01m.webp');
 }
 .firstscreen__block {
     text-align: center;
@@ -184,6 +184,10 @@ a.header-userinfo__text {
     margin-left: auto;
     margin-right: auto;
 }
+.wrap-horizontal.wrap_15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 h1 {
     font-family: "Arkipelago", sans-serif;
     font-weight: 400;
@@ -260,6 +264,102 @@ a.smallink {
 }
 .settings-form__custom-control {
     margin-bottom: 34px;
+}
+.user-list {}
+.user {
+    width: 290px;
+    height: 126px;
+    margin: 0 auto;
+}
+.user__inner {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.user + .user {
+    margin-top: 19px;
+}
+.user.user_pair .user__inner:before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-image: url('../img/icons/liked.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -12px;
+    right: -5px;
+}
+.user__img-area {
+    width: 136px;
+    height: 127px;
+    padding: 13px 11px 27px;
+}
+.user__img {
+    width: 114px;
+    height: 87px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+.user__btn {
+    width: 100%;
+    position: absolute;
+    bottom: -13px;
+    z-index: 20;
+}
+.user__inf {
+    width: 154px;
+    padding: 13px 10px 27px 7px;
+    color: #71757A;
+}
+.user__text {
+    margin-bottom: 12px;
+}
+.user__name {
+    font-family: "FuturaNew", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 4px;
+}
+.user__location {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9px;
+}
+.compability {}
+.compability__title {
+    font-family: "FuturaNew", sans-serif;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    text-transform: uppercase;
+}
+.compability__charts {
+    text-align: center;
+    margin-left: -18px;
+}
+.compability__chart-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 1;
+    margin-top: 7px;
+}
+.compability__chart-canvas {
+    width: 70px;
+    height: 35px;
+}
+.compability__chart + .compability__chart {
+    margin-left: -20px;
 }
 .footer {
     padding: 64px 0 55px;
@@ -555,5 +655,9 @@ textarea.form-control {
 }
 .btn-login {
     width: 100%;
+}
+.btn_mini {
+    font-size: 8px;
+    padding: .407rem 1rem;
 }
 /*----------------------------------------------------------------------------------------------------*/

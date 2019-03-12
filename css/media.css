@@ -108,6 +108,12 @@
         border-radius: 5px;
         min-height: 126px;
     }
+    .user-list {
+        padding-top: 50px;
+    }
+    .user__btn {
+        width: 100%;
+    }
 
 }
 
@@ -117,7 +123,7 @@
         font-size: 15px;
     }
     .firstscreen.ph01 {
-        background-image: url('../img/photos/01d.webp');
+        background-image: url('../img/firstscreen/01d.webp');
     }
     .firstscreen__block {
         padding: 0 0 0 85px;
@@ -253,6 +259,79 @@
     .settings-form__btn {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    .user-list {
+        max-width: 1050px; /*980+35+35*/
+        padding-left: -35px;
+        padding-right: -35px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .user {
+        float: left;
+        width: 525px;
+        height: 197px;
+        margin: 0 0 30px 0;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .user__inner {}
+    .user + .user {
+        margin-top: 0;
+    }
+    .user__img-area {
+        width: 212px;
+        height: 198px;
+        padding: 20px 17px 42px;
+    }
+    .user__img {
+        width: 178px;
+        height: 136px;
+    }
+    .user__inf {
+        width: 243px;
+        padding: 20px 19px 29px 12px;
+        color: #71757A;
+    }
+    .user__btn {
+        width: 100%;
+        bottom: -21px;
+    }
+    .btn_mini {
+        font-size: 11px;
+        padding: .75rem 1rem;
+    }
+    .user__text {
+        margin-bottom: 18px;
+    }
+    .user__name {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+    .user__location {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .compability__charts {
+        margin-left: -25px;
+    }
+    .compability__title {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    .compability__chart-title {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .compability__chart-canvas {
+        width: 100px;
+        height: 50px;
+    }
+    .compability__chart + .compability__chart {
+        margin-left: -20px;
     }
 
 }
