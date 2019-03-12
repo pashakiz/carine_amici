@@ -38,7 +38,7 @@ body {
     background-size: cover;
 }
 .firstscreen.ph01 {
-    background-image: url('../img/firstscreen/01m.webp');
+    background-image: url('../img/bg/01m.webp');
 }
 .firstscreen__block {
     text-align: center;
