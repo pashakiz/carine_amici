@@ -34,6 +34,9 @@
     .btn-login {
         width: 100%;
     }
+    .btn-w100 {
+        width: 100%;
+    }
     .logo__text {
         font-size: 26px;
     }
@@ -48,7 +51,7 @@
         margin-bottom: 0;
     }
     .footer {
-        padding: 37px 25px;
+        padding: 37px 0;
         text-align: left;
     }
     .footer a.footer__lnk {
@@ -74,6 +77,36 @@
     .collage-login__img {
         width: 100%;
         position: static;
+    }
+    .settings-photo {
+        width: 320px;
+        padding-right: 20px;
+    }
+    .settings-form {
+        padding-left: 20px;
+    }
+    .settings-form__custom-control {
+        margin-bottom: 0;
+    }
+    .custom-file {
+        height: 294px;
+    }
+    .custom-file-area {
+        height: 294px;
+    }
+    .custom-file-img {
+        width: 320px;
+        height: 300px;
+    }
+    .custom-file.image {
+        height: 300px;
+    }
+    .custom-file.image .custom-file-area {
+        height: 300px;
+    }
+    textarea.form-control {
+        border-radius: 5px;
+        min-height: 126px;
     }
 
 }
@@ -109,13 +142,17 @@
     .header__btn {
         display: none;
     }
+    .header__userinfo {
+        display: block;
+    }
     .content {
         padding-top: 46px;
     }
     .content.main {
         padding: 150px 0;
     }
-    .wrap-horizontal {
+    .wrap-horizontal,
+    .content.main .wrap-horizontal {
         padding-left: 85px;
         padding-right: 85px;
     }
@@ -171,7 +208,7 @@
         left: -8%;
     }
     .footer {
-        padding: 37px 85px;
+        padding: 37px 0;
     }
     .btn {
         padding: 1.063rem 1.5rem;
@@ -195,10 +232,48 @@
     a.smallink {
         font-size: 12px;
     }
+    .custom-checkbox .custom-control-label {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+    .custom-radio .custom-control-label {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .custom-switch .custom-control-label {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .settings-photo {
+        padding-right: 20px;
+    }
+    .settings-form {
+        padding-left: 20px;
+    }
+    .settings-form__btn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .wrap-horizontal {
+        max-width: 1370px;
+    }
+    .content.main .wrap-horizontal,
+    .footer.main .wrap-horizontal {
+        max-width: none;
+    }
+    .settings-photo {
+        padding-right: 50px;
+    }
+    .settings-form {
+        padding-left: 50px;
+    }
+    .settings-form__btn {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }

@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     $('.custom-file-input').on('change', function(){
         //$('.custom-file-img').css('background-image', 'url(' + $(this).val() + ')');
-        $('.custom-file-img').show();
+        $(this).closest('.custom-file').addClass('image');
     });
 
 });
