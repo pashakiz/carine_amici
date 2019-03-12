@@ -177,6 +177,7 @@
     .user-profile__chart-title {
         font-size: 14px;
         line-height: 20px;
+        margin-top: 16px;
     }
     .user-profile__chart-title span {
         font-size: 13px;

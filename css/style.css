@@ -453,6 +453,7 @@ a.smallink {
     line-height: 18px;
     color: #71757A;
     text-align: center;
+    margin-top: 11px;
 }
 .user-profile__chart-title span {
     display: block;
