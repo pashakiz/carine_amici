@@ -19,7 +19,13 @@
     
 }
 
-@media only screen and (min-width : 480px) {}
+@media only screen and (min-width : 480px) {
+    .collage__img_xs {
+        position: static;
+        width: 71%;
+        margin: 0 auto;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -200,8 +206,59 @@
     body {
         font-size: 15px;
     }
-    .firstscreen.ph01 {
-        background-image: url('../img/bg/01d.webp');
+    .firstscreen.bg01 {
+        background-image: url('../img/bg/01d.jpg');
+    }
+    .firstscreen.bg02 {
+        background-image: url('../img/bg/02d.jpg');
+    }
+    .firstscreen.bg03 {
+        background-image: url('../img/bg/03d.jpg');
+    }
+    .firstscreen.bg04 {
+        background-image: url('../img/bg/04d.jpg');
+    }
+    .firstscreen.bg05 {
+        background-image: url('../img/bg/05d.jpg');
+    }
+    .firstscreen.bg06 {
+        background-image: url('../img/bg/06d.jpg');
+    }
+    .firstscreen.bg07 {
+        background-image: url('../img/bg/07d.jpg');
+    }
+    .firstscreen.bg08 {
+        background-image: url('../img/bg/08d.jpg');
+    }
+    .firstscreen.bg09 {
+        background-image: url('../img/bg/09d.jpg');
+    }
+    .firstscreen.bg10 {
+        background-image: url('../img/bg/10d.jpg');
+    }
+    .firstscreen.bg11 {
+        background-image: url('../img/bg/11d.jpg');
+    }
+    .firstscreen.bg12 {
+        background-image: url('../img/bg/12d.jpg');
+    }
+    .firstscreen.bg13 {
+        background-image: url('../img/bg/13d.jpg');
+    }
+    .firstscreen.bg14 {
+        background-image: url('../img/bg/14d.jpg');
+    }
+    .firstscreen.bg15 {
+        background-image: url('../img/bg/15d.jpg');
+    }
+    .firstscreen.bg16 {
+        background-image: url('../img/bg/16d.jpg');
+    }
+    .firstscreen.bg17 {
+        background-image: url('../img/bg/17d.jpg');
+    }
+    .firstscreen.bg18 {
+        background-image: url('../img/bg/18d.jpg');
     }
     .firstscreen__block {
         padding: 0 0 0 85px;
