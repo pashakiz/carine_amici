@@ -449,7 +449,7 @@ a.smallink {
     margin-left: -20px;
 }
 .user-profile {
-    max-width: 966px;
+    width: 100%;
     padding: 14px 0 17px;
     margin: 0 auto;
 }
@@ -481,8 +481,19 @@ a.smallink {
     top: -8px;
     right: -2px;
 }
+.user-profile__gallery {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 41px;
+    position: relative;
+}
+.user-profile__gallery-item {
+    width: 14.28571428571429%;
+    padding: 13px 6px 0;
+}
 .user-profile__gallery-img {
-    margin-top: 13px;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;

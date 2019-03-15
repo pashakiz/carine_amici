@@ -29,7 +29,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+    .user-profile {
+        max-width: 500px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -122,6 +124,16 @@
     }
     .user-profile {
         padding: 64px 0 120px;
+        width: 700px;
+        max-width: 960px;
+    }
+    .user-profile__gallery {
+        width: 712px; /*6+700+6*/
+        left: -6px;
+    }
+    .user-profile__gallery-item {
+        /*width: 100px;*/
+        height: 93px;
     }
     .user-profile__image {
         width: 285px;
@@ -130,13 +142,6 @@
     }
     .user-profile__btn {
         padding: 1.063rem 3rem;
-    }
-    .user-profile__gallery {
-        margin-top: 41px;
-    }
-    .user-profile__gallery-img {
-        width: 90px;
-        height: 84px;
     }
     .user-profile__text {
         margin-bottom: 0;
@@ -192,13 +197,6 @@
         margin-bottom: 0;
     }
 
-}
-
-@media (min-width: 870px) {
-    .user-profile__gallery-img {
-        width: 110px;
-        height: 102px;
-    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -296,6 +294,10 @@
     .content.main .wrap-horizontal {
         padding-left: 85px;
         padding-right: 85px;
+    }
+    .wrap-horizontal_user-profile {
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .content.main p {
         font-size: 15px;
@@ -468,6 +470,16 @@
     .compability__chart + .compability__chart {
         margin-left: -20px;
     }
+    .user-profile {
+        width: 920px;
+    }
+    .user-profile__gallery {
+        width: 932px;
+    }
+    .user-profile__gallery-item {
+        /*width: 131px;*/
+        height: 122px;
+    }
     .user-profile__image {
         width: 360px;
         height: 470px;
@@ -479,13 +491,6 @@
 
 }
 
-@media (min-width: 1100px) {
-    .user-profile__gallery-img {
-        width: 127px;
-        height: 118px;
-    }
-}
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .wrap-horizontal {
@@ -494,6 +499,17 @@
     .content.main .wrap-horizontal,
     .footer.main .wrap-horizontal {
         max-width: none;
+    }
+    .user-profile {
+        width: 966px;
+        max-width: 966px;
+    }
+    .user-profile__gallery {
+        width: 978px;
+    }
+    .user-profile__gallery-item {
+        /*width: 138px;*/
+        height: 128px;
     }
     .settings-photo {
         padding-right: 50px;
