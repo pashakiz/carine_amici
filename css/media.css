@@ -262,6 +262,27 @@
         padding: 0 0 0 85px;
         text-align: left;
     }
+    .content_bg.bg19 {
+        background-image: url('../img/bg/19d.jpg');
+    }
+    .content_bg.bg20 {
+        background-image: url('../img/bg/20d.jpg');
+    }
+    .content_bg.bg21 {
+        background-image: url('../img/bg/21d.jpg');
+    }
+    .content_bg.bg22 {
+        background-image: url('../img/bg/22d.jpg');
+    }
+    .content_bg.bg23 {
+        background-image: url('../img/bg/23d.jpg');
+    }
+    .content_bg.bg24 {
+        background-image: url('../img/bg/24d.jpg');
+    }
+    .content_bg .h2-login {
+        font-size: 18px;
+    }
     .logo.logo_main .logo__img {
         float: left;
         margin-left: 0;
